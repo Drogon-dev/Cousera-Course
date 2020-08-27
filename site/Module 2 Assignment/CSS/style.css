@@ -38,6 +38,10 @@ p {
     position: relative;
 }
 
+#beef {
+    color: white;
+}
+
 #chicken {
    background-color:  #F1AB85;
 }
