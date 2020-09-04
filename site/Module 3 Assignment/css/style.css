@@ -1,3 +1,4 @@
+/* Base Styling*/
 body {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
@@ -46,6 +47,10 @@ p {
 .nav-item a:hover {
     background: cornsilk;
 }
+/** End of Base Styling **/
+
+/** Media Queries **/
+/** For small Devices **/
 @media (max-width: 767.98px) {
     #row {
         margin: 0px 40px;
@@ -63,3 +68,4 @@ p {
         margin: 0px 40px;
     }  
 }
+/** ENd of Media Queries **/
