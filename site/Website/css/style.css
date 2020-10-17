@@ -54,7 +54,17 @@ address {
     font-style: italic;
 }
 
-li {
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-nav>li {
     font-weight: bold;
 }
 
@@ -85,8 +95,9 @@ footer {
     border-color: #879369;
 }
 
-.btn-par {
-    margin-bottom: 0px;
+.par {
+    height: 100px;
+    overflow: hidden;
 }
 
 .bg-light {
@@ -169,9 +180,9 @@ footer {
 }
 
 .rc_num {
-    font-family: 'R0boto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 98%;
+    font-size: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -182,13 +193,11 @@ footer {
     }
     .pg_box_1 {
         width: 46%;
-        height: 320px;
         margin: 4% 2% 2% 2%;
         padding: 10px 10px 15px 10px;
     }
     .pg_box_2 {
         width: 46%;
-        height: 320px;
         margin: 4% 2% 2% 2%;
         padding: 10px 10px 15px 10px;
     }
