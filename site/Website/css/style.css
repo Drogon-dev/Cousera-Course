@@ -1,0 +1,276 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #879369;
+    margin-left: 8vw;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 150;
+    color: #879369;
+}
+
+.carousel-caption {
+    font-family: 'Raleway', sans-serif;
+    bottom: 30%;
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: 150;
+}
+
+.nav-spacing {
+    margin-right: 0 !important;
+    margin-left: auto;
+    margin-top: .5rem!important;
+}
+
+address {
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+li {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #373836;
+    position: relative;
+    clear: both;
+    padding: 15px;
+    font-size: 90%;
+}
+
+.address_name {
+    margin-left: 30px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #879369;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #879369;
+    border-color: #879369;
+}
+
+.btn-par {
+    margin-bottom: 0px;
+}
+
+.bg-light {
+    background-color: #d1d1d1!important;
+}
+
+#opening_hours {
+    margin-right: 8rem;
+}
+
+#copyright {
+    clear: both;
+    text-align: center;
+    font-size: 85%;
+    color: #879369;
+    margin-bottom: 3px;
+}
+
+.hide {
+    border: 0.1px solid #242222;
+    margin-right: 10vw;
+}
+
+.icon {
+    color: #879369;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.pg_icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    color: #000000;
+}
+
+.days {
+    font-weight: bold;
+}
+
+.pg_img {
+    width: 100vw;
+}
+
+.content {
+    text-align: left;
+    font-size: 16px;
+    margin: 2vh 8vw;
+}
+
+.indent {
+    margin-left: 6vw;
+}
+
+.bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.pg_box_1 {
+    width: 92%;
+    margin: 4% 4%;
+    padding: 10px 10px 15px 10px;
+}
+
+.pg_box_2 {
+    width: 92%;
+    margin: 4% 4%;
+    padding: 10px 10px 15px 10px;
+}
+
+.pg_box_3 {
+    width: 92%;
+    margin: 4% 4%;
+    padding: 10px 10px 15px 10px;
+}
+
+.rc_num {
+    font-family: 'R0boto', sans-serif;
+    font-weight: bold;
+    font-size: 98%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 576px) {
+    #pg_boxes>div {
+        float: left;
+    }
+    .pg_box_1 {
+        width: 46%;
+        height: 320px;
+        margin: 4% 2% 2% 2%;
+        padding: 10px 10px 15px 10px;
+    }
+    .pg_box_2 {
+        width: 46%;
+        height: 320px;
+        margin: 4% 2% 2% 2%;
+        padding: 10px 10px 15px 10px;
+    }
+    .pg_box_3 {
+        width: 96%;
+        margin: 2% 2% 4% 2%;
+        padding: 10px 10px 15px 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 3rem;
+        padding-left: 0rem;
+    }
+    .pg_box_1 {
+        width: 30%;
+        margin: 3% 2% 3% 1.5%;
+        padding: 10px 10px 15px 10px;
+    }
+    .pg_box_2 {
+        width: 30%;
+        margin: 3% 1.5% 3% 1.5%;
+        padding: 10px 10px 15px 10px;
+    }
+    .pg_box_3 {
+        width: 30%;
+        margin: 3% 1.5% 3% 2%;
+        padding: 10px 10px 15px 10px;
+    }
+    .hide {
+        display: none;
+    }
+    #opening_hours {
+        width: 20vw;
+        margin-right: 15px;
+        float: left;
+    }
+    .address_name {
+        display: inline-block;
+        width: 60vw;
+    }
+    #contact_info {
+        width: 65vw;
+        margin-right: 5vw;
+        float: left;
+    }
+    .pg_img {
+        display: block;
+        float: right;
+        width: 55vw;
+        margin: 2vw 2vw 2vw 3vw;
+    }
+    .main_content {
+        display: block;
+        width: 35vw;
+        margin: 2vw 3vw 2vw 2vw;
+    }
+    .content {
+        text-align: justify;
+        font-size: 16px;
+        margin: 0;
+    }
+    h2 {
+        margin-left: 0vw;
+        margin-bottom: 15px;
+    }
+    .about {
+        display: block;
+        float: right;
+        width: 30vw;
+        margin: 2vw 2vw 2vw 3vw;
+    }
+    .product {
+        display: block;
+        float: right;
+        width: 30vw;
+        margin: 2vw 2vw 2vw 3vw;
+    }
+    .mains {
+        display: block;
+        width: 60vw;
+        margin: 2vw 3vw 2vw 2vw;
+    }
+}

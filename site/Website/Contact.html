@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #373836;">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="40" height="40" alt=""></a>
+            <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav nav-spacing">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product.html">Product</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Contact.html">Contact Us<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <div class=>
+            <img class="pg_img" src="images/Contact_Us.jpg" alt="Contact us">
+        </div>
+        <div class="main_content">
+            <h2>Contact Us</h2>
+            <p>Email Us with any questions or inquiries . We would be glad to answer your questions and set up a meeting with you.</p>
+            <div class="content">
+                <form action="https://formspree.io/f/xqkgpozw" method="POST">
+                    <div class="form-group">
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+                    </div>
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="example@email.com" required="required" data-error="Valid email is required.">
+                    </div>
+                    <div class="form-group">
+                        <label for="form_lastname">Subject *</label>
+                        <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Lastname is required.">
+                    </div>
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    </div>
+                    <div>
+                        <p class="text-muted">
+                            <strong>*</strong> These fields are required.
+                        </p>
+                        <button type="submit" class="btn btn-primary">Leave a message</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <section id="contact_info">
+            <h4>Contact Info</h4>
+            <address><span class="fa fa-map-marker icon address_icon" aria-hidden="true"></span><span>85 Oliyedi Estate, Adexson Vulcanizer</span><br>
+            <span class="address_name">B/stop, Igando Lagos.</span><br>
+            <span class="fa fa-phone icon" aria-hidden="true"></span><a class="contact" href="tel:+2348136186836">+234-813-6186-836</a><br>
+            <a href="https://www.linkedin.com/mwlite/company/squawkings-aviation-software-ltd" target="_blank"><span class="fa fa-linkedin icon" aria-hidden="true"></span></a>
+            </address>
+        </section>
+        <hr class="hide">
+        <section id="opening_hours">
+            <h4>Opening Hours</h4>
+            <p>
+                <span class="days"> Mon - Fri : </span><span><time>9:00</time> - <time>17:00</time></span><br>
+                <span class="days">Sat : </span><span><time>10:00</time> - <time>15:00</time></span><br>
+                <span class="days">Sun : </span><span><time>12:00</time> - <time>15:00</time></span>
+            </p>
+        </section>
+        <p id="copyright"><span>&copy;</span> 2020, Squawkings Aviation Software Limited</p>
+    </footer>
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
