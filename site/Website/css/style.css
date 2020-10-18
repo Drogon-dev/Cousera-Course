@@ -208,7 +208,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 3rem;
         padding-left: 0rem;
