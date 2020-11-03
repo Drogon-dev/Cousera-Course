@@ -7,14 +7,14 @@ body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 700;
     color: #000000;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #879369;
     margin-left: 8vw;
@@ -97,11 +97,6 @@ footer {
     border-color: #879369;
 }
 
-.par {
-    height: 100px;
-    overflow: hidden;
-}
-
 .bg-light {
     background-color: #d1d1d1!important;
 }
@@ -130,12 +125,6 @@ footer {
     height: 20px;
 }
 
-.pg_icon {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 20px;
-}
-
 .contact {
     color: #000000;
 }
@@ -159,28 +148,10 @@ footer {
     font-weight: bold;
 }
 
-.pg_box_1 {
-    width: 92%;
-    margin: 4% 4%;
-    padding: 10px 10px 15px 10px;
-}
-
-.pg_box_2 {
-    width: 92%;
-    margin: 4% 4%;
-    padding: 10px 10px 15px 10px;
-}
-
-.pg_box_3 {
-    width: 92%;
-    margin: 4% 4%;
-    padding: 10px 10px 15px 10px;
-}
-
 .rc_num {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 0.7rem;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -209,10 +180,19 @@ li {
     margin-right: 10px;
 }
 
+.carousel-indicators {
+    display: none;
+}
+
+.Caurosel_lg {
+    display: none !important;
+}
+
+.carousel_par {
+    font-size: 0.7rem;
+}
+
 @media screen and (min-width: 576px) {
-    #pg_boxes>div {
-        float: left;
-    }
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 3rem;
         padding-left: 0rem;
@@ -263,6 +243,12 @@ li {
         font-size: 16px;
         margin: 0;
     }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+        color: #000000;
+    }
     h2 {
         margin-left: 0vw;
         margin-bottom: 15px;
@@ -297,5 +283,24 @@ li {
         display: block;
         width: 60vw;
         margin: 2vw 3vw 2vw 2vw;
+    }
+    .carousel-indicators {
+        display: flex;
+    }
+    .Caurosel_sm {
+        display: none !important;
+    }
+    .Caurosel_lg {
+        display: block !important;
+    }
+    .rc_num {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .carousel_par {
+        font-size: 100%;
     }
 }
